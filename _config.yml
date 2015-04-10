@@ -1,5 +1,5 @@
 url: http://www.makercamp.io
-baseurl: 
+baseurl: /makercamp.io
 
 # Site settings
 title: Makercamp Shenzhen
@@ -16,7 +16,7 @@ color:
 # Team names, titles and social links
 people:
 - name: Jay
-  pic: 1
+  pic: 2
   position: Lead Designer
   social:
     - title: twitter
@@ -37,8 +37,8 @@ people:
     - title: linkedin
       url: #
 
-- name: Fabio
-  pic: 3
+- name: Manu
+  pic: 2
   position: Lead Developer
   social:
     - title: twitter
@@ -48,8 +48,8 @@ people:
     - title: google-plus
       url: #
 
-- name: Manu
-  pic: 3
+- name: Fabio
+  pic: 2
   position: Lead Developer
   social:
     - title: twitter
@@ -58,6 +58,7 @@ people:
       url: #
     - title: google-plus
       url: #
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
