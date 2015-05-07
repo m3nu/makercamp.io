@@ -2,16 +2,16 @@ url: http://www.makercamp.io
 baseurl: /makercamp.io
 
 # Site settings
-title: Makercamp Shenzhen
+title: Creator Camp
 email: info@makercamp.io
 description: "Work with other hardware hackers and find a manufacturer for your awesome project."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 1E824C
-  secondary: 1E824C  
-  secondary-dark: 1E824C
-  title: 2ECC71
+  primary: D24D57
+  secondary: D24D57  
+  secondary-dark: CF000F
+  title: D24D57
 
 # Team names, titles and social links
 people:
