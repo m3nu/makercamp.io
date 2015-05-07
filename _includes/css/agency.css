@@ -182,10 +182,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    /*font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,cursive;*/
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.title }};
     font-weight: 700;
-    margin-top: -15px;
 }
 
 .navbar>.container-fluid .navbar-brand {
@@ -268,6 +267,8 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        margin-top: -15px;
+
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -293,6 +294,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    margin-top: 50px;
 }
 
 header .intro-text {
@@ -319,6 +321,10 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    header {
+          margin-top: 0px;
+    }
+
     header .intro-text {
         padding-top: 500px;
         padding-bottom: 100px;
@@ -888,8 +894,4 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: #{{ site.color.primary }};
 }
