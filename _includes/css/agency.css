@@ -895,3 +895,6 @@ ul.social-buttons li a:active {
     height: auto; 
 }
 
+.btn-danger {
+    background: #{{ site.color.primary }};
+}
