@@ -692,6 +692,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
+    background-image: url(img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -875,22 +876,4 @@ ul.social-buttons li a:active {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-}
-
-::-moz-selection {
-    text-shadow: none;
-    background: #{{ site.color.primary }};
-}
-
-::selection {
-    text-shadow: none;
-    background: #{{ site.color.primary }};
-}
-
-img::selection {
-    background: 0 0;
-}
-
-img::-moz-selection {
-    background: 0 0;
 }
