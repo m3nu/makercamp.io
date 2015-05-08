@@ -877,3 +877,13 @@ ul.social-buttons li a:active {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+#cost-table td, #cost-table th{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#cost-table > tbody > tr > td:nth-child(3) {
+    width: 30%;
+    text-align: right;
+}
