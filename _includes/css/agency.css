@@ -887,3 +887,11 @@ ul.social-buttons li a:active {
     width: 30%;
     text-align: right;
 }
+
+.img-rounded {
+    border-radius: 10px;
+    border: 1px solid #021a40;   
+    width: 95%;
+    height: auto; 
+}
+
