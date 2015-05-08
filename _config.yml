@@ -21,7 +21,14 @@ people:
 
 - name: Manu
   pic: manu
-  position: IT Entrepreneur, previously Sourcing Manager for European computer company in China.
+  position: Global IT Entrepreneur, previously Sourcing Manager for European computer company in China.
+  social:
+    - title: github
+      url: https://github.com/manuelRiel
+    - title: linkedin
+      url: https://www.linkedin.com/pub/manuel-riel/13/425/428
+    - title: facebook
+      url: https://www.facebook.com/manuelr
 
 - name: Fabio
   pic: fabio2
