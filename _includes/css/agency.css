@@ -673,6 +673,10 @@ section h3.section-subheading {
     }
 }
 
+section.testimonial {
+    background: #eee;
+}
+
 .testimonial {
     position: relative;
     padding: 0;
@@ -735,6 +739,7 @@ section h3.section-subheading {
     width: 40px;
     height: 40px;
     margin-left: 0;
+    margin-top: 1em;
     border: 1px solid #f1f1f1;
     border-radius: 100%;
     text-align: center;
@@ -746,6 +751,8 @@ section h3.section-subheading {
     margin-top: 12px;
     font-size: 10px;
     line-height: 14px;
+    margin-top: 1em;
+
 }
 
 .testimonial>li.testimonial-inverted>.testimonial-panel {
@@ -784,8 +791,8 @@ section h3.section-subheading {
 .testimonial .testimonial-body>p,
 .testimonial .testimonial-body>ul {
     margin-bottom: 0;
-    background-color: white;
-}
+/*    background-color: white;
+*/}
 
 
 
