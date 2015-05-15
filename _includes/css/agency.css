@@ -784,6 +784,7 @@ section h3.section-subheading {
 .testimonial .testimonial-body>p,
 .testimonial .testimonial-body>ul {
     margin-bottom: 0;
+    background-color: white;
 }
 
 
@@ -860,7 +861,7 @@ section h3.section-subheading {
 
 @media(min-width:1200px) {
     .testimonial>li {
-        min-height: 100px;
+        min-height: 0px;
     }
 
     .testimonial>li .testimonial-panel {
