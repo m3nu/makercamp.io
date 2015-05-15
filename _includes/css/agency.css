@@ -579,6 +579,13 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
@@ -665,6 +672,219 @@ section h3.section-subheading {
         padding: 0 100px 20px 20px;
     }
 }
+
+.testimonial {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.testimonial:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 0px;
+    margin-left: -1.5px;
+    background-color: #f1f1f1;
+}
+
+.testimonial>li {
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 50px;
+}
+
+.testimonial>li:before,
+.testimonial>li:after {
+    content: " ";
+    display: table;
+}
+
+.testimonial>li:after {
+    clear: both;
+}
+
+.testimonial>li .testimonial-panel {
+    float: right;
+    position: relative;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.testimonial>li .testimonial-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.testimonial>li .testimonial-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.testimonial>li .testimonial-image {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+    border: 1px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+.testimonial>li .testimonial-image h4 {
+    margin-top: 12px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.testimonial>li.testimonial-inverted>.testimonial-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.testimonial>li.testimonial-inverted>.testimonial-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.testimonial>li.testimonial-inverted>.testimonial-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.testimonial>li:last-child {
+    margin-bottom: 0;
+}
+
+.testimonial .testimonial-heading h4 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.testimonial .testimonial-heading h4.subheading {
+    text-transform: none;
+}
+
+.testimonial .testimonial-body>p,
+.testimonial .testimonial-body>ul {
+    margin-bottom: 0;
+}
+
+
+
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+@media(min-width:768px) {
+    .testimonial:before {
+        left: 50%;
+    }
+
+    .testimonial>li {
+        margin-bottom: 50px;
+        min-height: 80px;
+    }
+
+    .testimonial>li .testimonial-panel {
+        float: left;
+        width: 71%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+
+    .testimonial>li .testimonial-image {
+        left: 80%;
+        width: 60px;
+        height: 60px;
+        margin-left: -50px;
+    }
+
+    .testimonial>li .testimonial-image h4 {
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .testimonial>li.testimonial-inverted>.testimonial-panel {
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
+}
+
+@media(min-width:992px) {
+    .testimonial>li {
+        min-height: 150px;
+    }
+
+    .testimonial>li .testimonial-panel {
+        padding: 0 20px 20px;
+    }
+
+    .testimonial>li .testimonial-image {
+        width: 80px;
+        height: 80px;
+        margin-left: -75px;
+    }
+
+    .testimonial>li .testimonial-image h4 {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .testimonial>li.testimonial-inverted>.testimonial-panel {
+        padding: 0 20px 20px;
+    }
+}
+
+@media(min-width:1200px) {
+    .testimonial>li {
+        min-height: 100px;
+    }
+
+    .testimonial>li .testimonial-panel {
+        padding: 0 20px 20px 100px;
+    }
+
+    .testimonial>li .testimonial-image {
+        width: 100px;
+        height: 100px;
+        margin-left: -85px;
+    }
+
+    .testimonial>li .testimonial-image h4 {
+        margin-top: 40px;
+    }
+
+    .testimonial>li.testimonial-inverted>.testimonial-panel {
+        padding: 0 100px 20px 20px;
+    }
+}
+
+
+
+
 
 .team-member {
     margin-bottom: 50px;
