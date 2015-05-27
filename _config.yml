@@ -21,19 +21,23 @@ people:
 
 - name: Manu
   pic: manu
-  position: Global IT Entrepreneur, data scientist, sourcing from China since 2008
+  position: Global IT Entrepreneur, data geek, sourcing from China since 2008
   social:
     - title: github
       url: https://github.com/manuelRiel
     - title: linkedin
       url: https://www.linkedin.com/pub/manuel-riel/13/425/428
-    - title: facebook
-      url: https://www.facebook.com/manuelr
 
 - name: Fabio
   pic: fabio2
-  position: China Sourcing Specialist, has been running his own sourcing agency in China since 2009. Many well-known consumer brands trust his expertise.
-url: #
+  position: China Sourcing Specialist, has been running his own sourcing agency in China since 2009.
+  social:
+      - title: linkedin
+        url: https://www.linkedin.com/profile/view?id=25347797&trk=miniprofile-primary-view-button
+
+- name: Judy
+  pic: Judy4
+  position: Purchasing Manager, more than 4 years experience in international trading business, both export and import. Familiar with Chinese manufacturers and China markets.
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
